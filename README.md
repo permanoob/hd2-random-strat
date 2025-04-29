@@ -1,3 +1,12 @@
+Yeah, I have no idea what I'm doing. Period. I'm just tryin'a make myself a version with a couple of personal tweaks. ... 
+- Changed failures so player gets knocked back more than 1 mission. (Failing first mission of an op puts you back to first mission of the previous difficulty. Fail on second or third mission of an op puts you back at first mission of same difficulty.) Since player only gets 1 item removed, going back 2-3 missions lets player get more items. More failures = more items = easier gameplay. "Par" for completion of a crusade would end with player having gotten 21 items. Mission failures would be sub-par performance, and would end with player having more than 21 items. Completing a mission without getting full stars would, at the campaign's end, be more difficult, since the player would have gotten less items - and would actually be a better than par performance.
+- Also fixed ministryOfTruthIcon.png path and the Mission Failure not working. And chaned the mission text stuff to show how many objectives one should expect. --permanoob
+- Added number of primary and side objectives to mission info text
+- Fiddled with when "Mission Complete" and "Mission Failed" buttons are enabled/disabled
+- Realized that I probably should be debugging locally, and only making commits after I've tested changes on my own...
+
+---
+
 ## ♨️ Open Source
 
 This project is proud to be an open-source project. We believe in the power of community-driven development and welcome
