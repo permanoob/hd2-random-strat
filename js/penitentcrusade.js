@@ -109,27 +109,30 @@ const checkMissionButtons = () => {
   if (missionCounter === 1) {
     applySpecialistButton.disabled = false;
   }
-  if (missionCounter >= 21) {
-    missionCompleteButton.disabled = true;
-  }
   if (missionCounter >= 22) {
-    missionFailedButton.disabled = true;
+    missionCompleteButton.disabled = true;
+    missionFailedButton.disabled = false;
   }
-  if (missionCounter < 21) {
+  if (missionCounter <= 21) {
     missionCompleteButton.disabled = false;
     missionFailedButton.disabled = false;
+  }
+  if (missionCounter === 1) {
+    missionCompleteButton.disabled = false;
+    missionFailedButton.disabled = true;
   }
 };
 
 const reduceMissionCounter = () => {
   const reduceByOneArray = [2, 4, 6, 9, 12, 15, 18, 21];
-  const reduceByTwoArray = [7, 10, 13, 16, 19];
-  if (reduceByOneArray.includes(missionCounter)) {
+  const reduceByTwoArray = [3, 5, 7, 10, 13, 16, 19, 22];
+  const reduceByThreeArray = [8, 11, 14, 17, 20];
+  if (reduceByOneArray.includes(missionCounter))
     missionCounter--;
-  }
-  if (reduceByTwoArray.includes(missionCounter)) {
+  else if (reduceByTwoArray.includes(missionCounter))
     missionCounter -= 2;
-  }
+  else if (reduceByThreeArray.includes(missionCounter))
+    missionCounter -= 3;
 };
 
 const claimItem = (currentItemIndex) => {
