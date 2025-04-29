@@ -4,7 +4,8 @@ Yeah, I have no idea what I'm doing. Period. I'm just tryin'a make myself a vers
 - Added number of primary and side objectives to mission info text
 - Fiddled with when "Mission Complete" and "Mission Failed" buttons are enabled/disabled
 - Realized that I probably should be debugging locally, and only making commits after I've tested changes on my own...
-
+- Noticed a "thank you" message in one of the main branch (?) changes. Got all the good feels.
+- 
 ---
 
 ## ♨️ Open Source
