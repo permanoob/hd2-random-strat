@@ -13,8 +13,8 @@ page.innerHTML += `    <head>
         <link rel="stylesheet" type="text/css" href="./css/custom.css" />
         <link
             rel="shortcut icon"
-            type="image/svg+xml"
-            href="./images/svgs/orbitalprecisionstrike.svg"
+            type="image/png"
+            href="./images/stratagems/orbitalprecisionstrike.png"
         />
         <meta
             name="description"
